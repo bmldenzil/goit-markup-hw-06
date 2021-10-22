@@ -799,12 +799,16 @@ margin-bottom: 0;
     flex-wrap: wrap;
     width: 30px;
     height: 30px;
-    border: 1px solid #000 ;
+    border: 1px solid rgba(0, 0, 0, 0.1) ;
     border-radius: 50%;
 
 
 }
 .icon-close{
-    content: '';
-    fill: inherit
+    fill: #000;
 }
+.icon-close:hover,
+.icon-close:focus{
+    fill: var(--accent-color);
+}
+
