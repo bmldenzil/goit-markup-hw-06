@@ -399,12 +399,52 @@
                 </svg>
                 </div>
             </button>
+            <b class="form-titul">Оставьте свои данные, мы вам перезвоним</b>
+            <form class="form" autocomplete="off" autocapitalize="none">
+                <label class="form-fild">
+                    <input class="form-input" type="text" name="name" placeholder=" ">
+                    <svg class="icon-form" width= "15" height="15">
+                        <use href="./img/symbol-defs.svg#icon-person-black"></use>
+                    </svg>
+                    <span class="form-fild-text">Имя</span>
+                </label>
+                
+                <label class="form-fild">
+                    
+                    <input class="form-input" type="tel" name="tel" placeholder=" ">
+                    <svg class="icon-form" width= "15" height="18">
+                        <use href="./img/symbol-defs.svg#icon-phone-black"></use>
+                    </svg>
+                    
+                    <span class="form-fild-text">Телефон</span>
+                </label>
+                
+                <label class="form-fild">
+                    <input class="form-input" type="email" name="email" placeholder=" ">
+                    <svg class="icon-form" width= "15" height="15">
+                        <use href="./img/symbol-defs.svg#icon-email-black"></use>
+                    </svg>
+                   
+                    <span class="form-fild-text">Почта</span>
+                </label>
+                <label class="form-fild">
+                    <textarea class="form-coments" name="coments" rows="5" placeholder=" ">                    </textarea>
+                    <span class="form-fild-text-coments">Коментарий</span>
+                </label>
+                <label class="form-checkbox">
+                    <input class="checkbox" type="checkbox">
+                    <div class="icon-checkbox"></div>
+                    <span class="form-text-checkbox">Соглашаюсь с рассылкой и принимаю 
+                        <a class="form-link" href="#">Условия договора</a>
+                    </span>
+                </label>
+            
+                <button class="form-button" type="submit">Отправить</button>
+                
+            </form>
+            
         </div>
-        <div>
-            <label class="" for="">
-                <input type="text">
-            </label>
-        </div>
+
     
     </div>
     <script src="./js/modal.js"></script>
