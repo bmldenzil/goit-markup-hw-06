@@ -590,7 +590,58 @@ color: #FFFFFF;
 .footer-social-link:focus{
     background-color: var(--accent-color);
 }
+.footer-field{    
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+.footer-conteiner{
+    display: flex;
+    margin-top: 20px;
+}
+.footer-input{
+    margin-right: 12px;
 
+    padding-left: 16px;
+
+    width: 358px;
+    height: 50px;
+    color: #fff;
+    background-color: inherit;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+.footer-field-text{
+    align-self: flex-start;
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.footer-field-button{
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    fill: #fff;
+    color: #FFFFFF;
+    border: none;
+    background: var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
 
 
 
@@ -832,7 +883,7 @@ text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
 }
-.form-fild{
+.form-field{
     position: relative;
     margin-left: 41px;
     margin-bottom: 28px;
@@ -859,7 +910,7 @@ color: #212121;
     transform: translateY(-50%);
 }
 
-.form-fild-text{
+.form-field-text{
     position: absolute;
     top: 50%;
     left: 42px;
@@ -875,8 +926,8 @@ color: #212121;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-input:focus ~ .form-fild-text,
-.form-input:not(:placeholder-shown) ~ .form-fild-text{
+.form-input:focus ~ .form-field-text,
+.form-input:not(:placeholder-shown) ~ .form-field-text{
     top: 0;
     left: 2px;
     transform: translateY(-120%);
@@ -887,7 +938,7 @@ color: #212121;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.form-input:not(:placeholder-shown, :focus) ~ .form-fild-text{
+.form-input:not(:placeholder-shown, :focus) ~ .form-field-text{
     top: 0;
     left: 2px;
     transform: translateY(-120%);
@@ -918,7 +969,7 @@ color: #212121;
     height: 120px;
     resize: none;
 }
-.form-fild-text-coments{
+.form-field-text-coments{
     position: absolute;
     top: 16px;
     left: 16px;
@@ -934,7 +985,7 @@ color: #212121;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
 }
-.form-coments:focus + .form-fild-text-coments{
+.form-coments:focus + .form-field-text-coments{
     top: 0;
     left: 2px;
     transform: translateY(-120%);
