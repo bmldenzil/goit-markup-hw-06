@@ -460,6 +460,7 @@ background: rgba(47, 48, 58, 0.8);
     letter-spacing: 0.03em;
 }
 .client-list{
+    margin-top: 50px;
     display: flex;
 }
 .client-item{
