@@ -390,16 +390,16 @@
                 <label class="footer-field">
                     <p class="footer-field-text">Подпишитесь на рассылку
                     </p>
-                    <div class="footer-conteiner">
+                    <form class="footer-conteiner">
                         <input class="footer-input" type="email" name="email" placeholder="E-mail">
                         
                     
-                        <button class="footer-field-button" type="submit">Подписатся <span>
+                        <button class="footer-field-button" type="submit">Подписатся 
                             <svg class="icon-footer-button" width="24"  height="24">
-                                <use href="./img/symbol-defs.svg#icon-send.svg"></use>
+                                <use href="./img/symbol-defs.svg#icon-send"></use>
                             </svg>
-                        </span></button>
-                    </div>
+                        </button>
+                    </form>
                 </label>
             </div>
 
@@ -408,11 +408,9 @@
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="button-close" data-modal-close>
-                <div class="close">
                 <svg class="icon-close" width= "18" height="18">
                     <use href="./img/symbol-defs.svg#icon-close-black"></use>
                 </svg>
-                </div>
             </button>
             <b class="form-titul">Оставьте свои данные, мы вам перезвоним</b>
             <form class="form" autocomplete="off" autocapitalize="none">
@@ -443,7 +441,8 @@
                     <span class="form-field-text">Почта</span>
                 </label>
                 <label class="form-field">
-                    <textarea class="form-coments" name="coments" rows="5" placeholder=" ">                    </textarea>
+                    
+                    <textarea class="form-coments" name="coments" rows="5" placeholder=" "></textarea>
                     <span class="form-field-text-coments">Коментарий</span>
                 </label>
                 <label class="form-checkbox">
